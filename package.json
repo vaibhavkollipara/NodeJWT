@@ -1,0 +1,22 @@
+{
+  "name": "nodejwt",
+  "version": "1.0.0",
+  "description": "Node app to demonstrate jwt auth",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "jwt"
+  ],
+  "author": "Vaibhav Kollipara",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.2.0"
+  }
+}
